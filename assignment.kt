@@ -42,18 +42,18 @@ fun convertDistance(value: Double, currentUnit: String, desiredUnit: String): Do
                 return value
             }
         }
-        "m" ->  when(desiredUnit) {
-            "km" -> value * 0.001
-            "mi" -> value * 0.000621371
-            "ft" -> value * 3.28084
-            "yd" -> value * 1.09361
-            "cm" -> value * 100
-            "mm" -> value * 1000
-            else -> {
-                println("Invalid desired unit of measurement.")
-                return value
-            }
-        }
+        // "m" ->  when(desiredUnit) {
+        //     "km" -> value * 0.001
+        //     "mi" -> value * 0.000621371
+        //     "ft" -> value * 3.28084
+        //     "yd" -> value * 1.09361
+        //     "cm" -> value * 100
+        //     "mm" -> value * 1000
+        //     else -> {
+        //         println("Invalid desired unit of measurement.")
+        //         return value
+        //     }
+        // }
         "ft" ->  when(desiredUnit) {
             "km" -> value * 0.0003048
             "mi" -> value * 0.000189394
