@@ -1,7 +1,3 @@
-/**
- * You can edit, run, and share this code.
- * play.kotlinlang.org
- */
 fun main(args: Array<String>) {
     if (args.size != 3) {
         println("Invalid number of arguments. Usage: convertDistance <distance> <fromUnit> <toUnit>")
